@@ -7,54 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Document</title>
-
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-        nav{
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-        }
-        nav ul{
-            display: flex;
-            list-style: none;
-            justify-content: center;
-        }
-        nav ul li{
-            padding: 5px 10px;
-        }
-        .container{
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            display: flex;
-        }
-        .container section{
-            min-width: 100%;
-            height: auto;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        @media(max-width: 991px){
-            .container{
-            position: absolute;
-            display: flex;
-            flex-direction: column;
-            height: auto;
-            transform: none !important;
-        }
-        }
-    </style>
+    <link rel="stylesheet" href="assit/css/style.css">
+   
 </head>
 <body>
     <nav>
@@ -89,7 +43,7 @@
         </section>
     </div>
 
-    <script type="text/javascript" src="skrollr.js"></script>
+    <script type="text/javascript" src="assit/js/skrollr.js"></script>
 	<script type="text/javascript">
 	var s = skrollr.init();
 	</script>
